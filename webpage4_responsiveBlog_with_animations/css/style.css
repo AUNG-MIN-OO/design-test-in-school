@@ -331,9 +331,79 @@ main .post-content .post-title a{
     color: black;
 }
 
+.site-content .sidebar .popular-post .post-content{
+    padding: 1rem   0rem;
+}
+
+.site-content .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info{
+    border-radius: 0 !important;
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 1.5rem !important;
+    background: white !important;
+}
+
+.site-content .sidebar .newsletter{
+    padding: 3rem;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem 1.3rem;
+    font-size: 1rem;
+    font-family: var(--Lexend);
+}
+
+.site-content .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    padding: .8rem 32%;
+    margin: 1rem    0rem;
+    background: var(--sky);
+}
+
 /*Side Bar end*/
 
 /*main content end*/
+
+/*Footer start*/
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: .3rem .9rem;
+}
+footer.footer .container h2{
+    color: white;
+}
+
+footer.footer .move-up{
+    position: absolute;
+    right: 1%;
+    top: 35%;
+}
+
+footer.footer .move-up span{
+    color: var(--midnight);
+}
+/*Footer end*/
 
 /*resoponsive css*/
 @media only screen and (max-width:750px){

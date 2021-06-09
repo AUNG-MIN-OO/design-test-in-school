@@ -10,6 +10,8 @@
     <!--    owlCarousel css-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!--    aos css-->
+    <link rel="stylesheet" href="css/aos.css">
     <!-- own style link --->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -60,7 +62,7 @@
     <main>
         <!-- site title -->
         <section class="site-title">
-            <div class="site-background">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
                 <h3>Tours and Travels</h3>
                 <h1>Amazing place on earth</h1>
                 <button class="btn">Explore</button>
@@ -73,7 +75,7 @@
             <div class="blog">
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-post">
-                        <div class="blog-content">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
                             <img src="assets/Blog-post/blog1.png" alt="post-1">
                             <div class="blog-title">
                                 <h3>London Fashion week's continue the evolution</h3>
@@ -83,7 +85,7 @@
                                 <span>2 minutes</span>
                             </div>
                         </div>
-                        <div class="blog-content">
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
                             <img src="assets/Blog-post/blog2.png" alt="post-2">
                             <div class="blog-title">
                                 <h3>London Fashion week's continue the evolution</h3>
@@ -93,7 +95,7 @@
                                 <span>2 minutes</span>
                             </div>
                         </div>
-                        <div class="blog-content">
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
                             <img src="assets/Blog-post/blog3.png" alt="post-3">
                             <div class="blog-title">
                                 <h3>London Fashion week's continue the evolution</h3>
@@ -103,8 +105,18 @@
                                 <span>2 minutes</span>
                             </div>
                         </div>
-                        <div class="blog-content">
-                            <img src="assets/Blog-post/blog4.png" alt="post-4">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="assets/Blog-post/post-3.jpg" alt="post-4">
+                            <div class="blog-title">
+                                <h3>London Fashion week's continue the evolution</h3>
+                                <button class="btn btn-blog">
+                                    Fashion
+                                </button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="assets/Blog-post/post-4.png" alt="post-4">
                             <div class="blog-title">
                                 <h3>London Fashion week's continue the evolution</h3>
                                 <button class="btn btn-blog">
@@ -127,7 +139,7 @@
         <section class="container">
             <div class="site-content">
                 <div class="posts">
-                    <div class="post-content">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
                             <div class="">
                                 <img src="assets/Blog-post/blog1.png" alt="blog-1">
@@ -145,7 +157,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="post-content">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
                             <div class="">
                                 <img src="assets/Blog-post/blog2.png" alt="blog-1">
@@ -163,7 +175,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="post-content">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
                             <div class="">
                                 <img src="assets/Blog-post/blog3.png" alt="blog-1">
@@ -181,7 +193,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="post-content">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
                             <div class="">
                                 <img src="assets/Blog-post/blog4.png" alt="blog-1">
@@ -209,24 +221,24 @@
                 <div class="sidebar">
                     <div class="category">
                         <h2>Category</h2>
-                        <ul class="category-list">
+                        <ul class="category-list" data-aos="fade-left" data-aos-delay="100">
                            <li class="list-items">
                                <a href="#">Software</a>
                                <span>(186)</span>
                            </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
                                 <a href="#">Technology</a>
                                 <span>(2)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
                                 <a href="#">Lifestyle</a>
                                 <span>(63)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
                                 <a href="#">Shopping</a>
                                 <span>(70)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
                                 <a href="#">Food</a>
                                 <span>(99)</span>
                             </li>
@@ -240,14 +252,71 @@
                                     <img src="assets/Blog-post/blog1.png" alt="blog-1">
                                 </div>
                                 <div class="post-info flex-row">
-                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                                     <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp; Janauary 14 2021</span>
-                                    <span>2 comments</span>
                                 </div>
                             </div>
                             <div class="post-title">
                                 <a href="#">New data recording system to analyze bicycle</a>
                             </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div class="">
+                                    <img src="assets/Blog-post/blog2.png" alt="blog-1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp; Janauary 14 2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to analyze bicycle</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div class="">
+                                    <img src="assets/Blog-post/blog3.png" alt="blog-1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp; Janauary 14 2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to analyze bicycle</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div class="">
+                                    <img src="assets/Blog-post/blog4.png" alt="blog-1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp; Janauary 14 2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to analyze bicycle</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div class="">
+                                    <img src="assets/Blog-post/blog5.png" alt="blog-1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp; Janauary 14 2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to analyze bicycle</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="email">
+                            <button class="btn form-btn">Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -259,10 +328,38 @@
     </main>
     <!-----------Main site section start end------------->
 
+<!--                                Footer                                      -->
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi eligendi error expedita in inventore ipsam itaque, libero mollitia neque nesciunt obcaecati, optio pariatur, quaerat ratione repudiandae sequi tenetur voluptates?</p>
+            </div>
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolor dolorem doloribus, ea fugit illum itaque nobis </p>
+            </div>
+            <div class="instagram">
+                <h2>Instagram</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid beatae delectus distinctio ducimus, earu</p>
+
+            </div>
+            <div class="follow">
+                <h2>Follow-us</h2>
+                <p>Alias consequatur, dignissimos iusto ratione soluta tempore? A aperiam aut deserunt nulla!</p>
+            </div>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-4x"></i></span>
+        </div>
+    </footer>
+<!--                            Footer end-->
     <!-- own style jQuery link --->
     <script src="js/jQuery.min.js"></script>
     <!--    owlCarousel js-->
     <script  src="js/owl.carousel.min.js"></script>
+    <!--    aos js-->
+    <script src="js/aos.js"></script>
     <!-- own style JS link --->
     <script src="js/main.js"></script>
 </body>
